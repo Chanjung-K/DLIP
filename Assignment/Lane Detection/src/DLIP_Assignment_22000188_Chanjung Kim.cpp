@@ -3,7 +3,7 @@
 * @course 	Deep Learning and Image Processing - HGU
 * @author	Chanjung Kim / 22000188
 * @Created	2025-04-01 by CJKIM
-* @Modified	2025-04-06 by CJKIM
+* @Modified	2025-04-08 by CJKIM
 * @brief	[DLIP] Assignment for Line Detection
 *
 ******************************************************************************
@@ -44,7 +44,7 @@ int main() {
 		}
 		cvtColor(src[i], gray[i], COLOR_BGR2GRAY);
 
-		GaussianBlur(gray[i], dst[i], Size(5, 5), 1, 1);
+		GaussianBlur(gray[i], dst[i], Size(5, 5), 1, 1);	
 
 		// ROI Setting
 		width[i] = cvRound(src[0].cols * 0.25);
@@ -106,6 +106,7 @@ int main() {
 				count++;
 			}
 		}
+
 
 		// Point calculation
 		a = cos(avg_theta);
