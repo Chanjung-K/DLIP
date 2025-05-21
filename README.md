@@ -5,7 +5,7 @@
 Author: Chan-Jung Kim
 
 Date: Created 2025-03-25
-      Updated 2025-03-25
+      Updated 2025-05-22
 
 This is a public github repository for Deep Learning and Image Process Class that contains my class projects and assignment codes.
 <hr>
